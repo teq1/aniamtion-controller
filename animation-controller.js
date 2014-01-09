@@ -130,7 +130,7 @@ var animationsSettings,
          * @private
          */
         __ifExist: function(elem){
-            return !!(!elem);
+            return !!(elem);
         },
         _addAnimateClass: {
             onEnter: function(id){
